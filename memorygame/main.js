@@ -4,20 +4,24 @@ let cardsInPlay=[];
 let cardOne=card[0];
 cardsInPlay.push(cardOne);
 
-console.log("User flipped "+ " "+cardsInPlay);
 
-let cardTwo=card[2];
-cardsInPlay.push(cardTwo);
-    if (cardsInPlay.length===2)
-    {
-        if(cardsInPlay[0]===cardsInPlay[1])
+    function checkForMatch()
         {
-            alert("You found a match!");
-        }
+            if (cardsInPlay[0] === cardsInPlay[1])
+             {
+                console.log("You found a match!");
+              } else
+                 {
+                console.log("Sorry, try again.");
+                 }
 
-        else
+         }
+    function flipCard(cardId)
         {
-                    alert("Sorry, try again.");
+            console.log("user flipped "+card[cardId]);
+cardsInPlay.push(card[cardId]);
+checkForMatch();
+
         }
-        
-    }
+        flipCard(0);
+        flipCard(2);

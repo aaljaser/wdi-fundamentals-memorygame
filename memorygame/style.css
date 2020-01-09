@@ -21,13 +21,13 @@ body {
         text-transform: uppercase;
         padding: 0 20px 0 20px;
         background-color:#0D2C40;
-        color:white;
+        color:navy;
         font-size:14px;
         letter-spacing: .08em;
         font-weight: 500;
     
     }
-    .copyright{
+    .copyrights{
         font-family:'Raleway';
 
         float:left;
@@ -48,16 +48,20 @@ body {
     }
     nav{
         background-color:#00A6B3 ;
-         color:white;
-        padding: 20px 0 20px 0;
+         font:white;font-weight: 800;
+         padding: 20px 0 20px 0px;
+       
     }
-    a{border-left-width: 20px;
-        margin:0 20px 0 20px;
-        font:white;}
+    a{border-width: 20px;
+    
+        margin:0px 20px 0px 20px;
+        font:white;
+    text-align: center;}
     main{
-        width:850px;
-    margin:0px auto 35px auto;
+        
+    margin:0px 0px 35px 0px;
     }
+    
     img{
         margin:40px 8px 0 8px;
         }
